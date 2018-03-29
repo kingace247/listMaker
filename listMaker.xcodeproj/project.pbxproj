@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE73914C206C76490016398F /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73914B206C76490016398F /* Unit.swift */; };
 		FE769C0E2069AD7D007F0570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE769C0D2069AD7D007F0570 /* AppDelegate.swift */; };
 		FE769C132069AD7D007F0570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE769C112069AD7D007F0570 /* Main.storyboard */; };
 		FE769C152069AD7D007F0570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE769C142069AD7D007F0570 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE73914B206C76490016398F /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		FE769C0A2069AD7D007F0570 /* listMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE769C0D2069AD7D007F0570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE769C122069AD7D007F0570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				FE769C252069C3A0007F0570 /* ArmiesTableViewCell.swift */,
 				FE769C212069B2A5007F0570 /* ArmiesTableViewController.swift */,
 				FE769C1F2069AFAE007F0570 /* Armies.swift */,
+				FE73914B206C76490016398F /* Unit.swift */,
 				FE769C0D2069AD7D007F0570 /* AppDelegate.swift */,
 				FE769C142069AD7D007F0570 /* Assets.xcassets */,
 				FE769C162069AD7D007F0570 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE73914C206C76490016398F /* Unit.swift in Sources */,
 				FE769C262069C3A0007F0570 /* ArmiesTableViewCell.swift in Sources */,
 				FE769C222069B2A5007F0570 /* ArmiesTableViewController.swift in Sources */,
 				FE769C202069AFAE007F0570 /* Armies.swift in Sources */,
