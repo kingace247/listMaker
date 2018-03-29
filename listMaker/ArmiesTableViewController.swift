@@ -14,7 +14,7 @@ class ArmiesTableViewController: UITableViewController {
     
     var armies : [Armies]? =
         [Armies(faction: "Faction", listName: "List Name", listDetail: "List Detail", listPoints: 0),
-         Armies(faction: "Rebels", listName: "Luke and friends", listDetail: "Luke, Rebel Troopers, At-ST", listPoints:600) ]
+         Armies(faction: "Rebels", listName: "Luke and friends", listDetail: "Luke, Rebel Troopers, AT-ST", listPoints:600) ]
         
     @IBAction func editButtonTapped(_ sender: Any) {
         let tableViewEditingMode = tableView.isEditing
@@ -81,10 +81,12 @@ class ArmiesTableViewController: UITableViewController {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let army = armies![indexPath.row]
-        print("\(army)")
-    }
+    
+    //selects and highlights row 
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let army = armies![indexPath.row]
+//        print("\(army)")
+//    }
     
     
     
